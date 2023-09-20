@@ -9,6 +9,6 @@ Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number % 2 == 0) 
 {
-    Console.WriteLine($"{number} - чётное");
+    Console.WriteLine($"{number} -> да");
 }
-else Console.WriteLine($"{number} - нечётное");
+else Console.WriteLine($"{number} -> нет");
